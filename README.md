@@ -16,4 +16,4 @@ I valori di beta sono minori di 1 per i componenti elettronici, maggiori di 1 pe
 Per valori di alfa=t invece l'affidabilità assume sempre valore di exp(-1), ossia 0.3687. 
 Il tasso di guasto segue la seguente formula:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;\lambda(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;f(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}" title="\LARGE f(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;\lambda(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;\lambda=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}" title="\LARGE f(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}" /></a>
