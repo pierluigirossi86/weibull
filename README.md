@@ -10,7 +10,7 @@ La modalità di guasto del sistema in oggetto non consente un'analisi approfondi
 
 Per definizione da dati storici, si conosce che sia la parte meccanica che la parte elettronica del sistema seguono la distribuzione di Weibull: 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;f(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}\exp{(-((x)/\alpha)^{\beta})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;f(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}\exp{(-((x)/\alpha)^{\beta})}" title="\LARGE f(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}\exp{(-((x)/\alpha)^{\beta})}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;f(t)=\frac{\beta}{\alpha}(\frac{t}{\alpha})^{(\beta-1)}\exp{(-((t)/\alpha)^{\beta})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;f(t)=\frac{\beta}{\alpha}(\frac{t}{\alpha})^{(\beta-1)}\exp{(-((t)/\alpha)^{\beta})}" title="\LARGE f(t)=\frac{\beta}{\alpha}(\frac{t}{\alpha})^{(\beta-1)}\exp{(-((t)/\alpha)^{\beta})}" /></a>
 
 L'affidabilità dei componenti è data da:
 
