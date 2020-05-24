@@ -35,4 +35,8 @@ Il tasso di guasto di un componente meccanico è minore per tempi bassi e sale c
 
 **2. Individuare il tasso di guasto del componente elettronico nel sistema**
 
-Il componente elettronico 
+Il componente elettronico, data l'elevata affidabilità della parte meccanica nei primi tempi t, sarà l'unico responsabile dei guasti registrati nel sistema. Con un primo script l'obiettivo sarà quindi quello di individuare un valore ottimale di alfa e beta per il componente elettronico, operando per formule inverse mettendo a sistema due valori di affidabilità in due tempi t e t+1. 
+
+**3. Individuare il tasso di guasto del componente meccanico nel sistema con il metodo di Montecarlo**
+
+Una volta individuato alfa e beta per il componente elettronico, con un nuovo script verranno individuati i valori di alfa e beta per il componente meccanico attraverso il metodo di Montecarlo. 
