@@ -5,5 +5,5 @@ l'analisi riguarda un dataset contenente rapporti di guasto di un piccolo sistem
 La modalità di guasto del sistema in oggetto non consente un'analisi approfondita sulle singole modalità di guasto dei componenti che lo compongono: per risalire ai parametri affidabilistici del sistema, occorre andare a ritroso dalla densità di guasto ottenuta da 10.000 test. 
 
 Per definizione da dati storici, si conosce che sia la parte meccanica che la parte elettronica del sistema seguono la distribuzione di Weibull: 
-<img src="https://latex.codecogs.com/gif.latex?f(x)=\( f(x) = \frac{\gamma} {\alpha} (\frac{x-\mu} {\alpha})^{(\gamma - 1)}\exp{(-((x-\mu)/\alpha)^{\gamma})} \hspace{.3in} x \ge \mu; \gamma, \alpha > 0 \) " /> 
+<img src="https://latex.codecogs.com/gif.latex?f(x)=\(f(x) =\frac{\gamma} {\alpha}(\frac{x-\mu} {\alpha})^{(\gamma-1)}\exp{(-((x-\mu)/\alpha)^{\gamma})} \hspace{.3in} x \ge \mu; \gamma, \alpha > 0 \) " /> 
  
