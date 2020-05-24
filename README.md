@@ -22,6 +22,14 @@ Il tasso di guasto segue la seguente formula:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;\lambda(t)=\frac{\beta}{\alpha}(\frac{t}{\alpha})^{(\beta-1)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;\lambda(t)=\frac{\beta}{\alpha}(\frac{t}{\alpha})^{(\beta-1)}" title="\LARGE f(t)=\frac{\beta}{\alpha}(\frac{t}{\alpha})^{(\beta-1)}" /></a>
 
+Densità, tasso e affidabilità sono legati dalla seguente relazione: 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;f(t)=\lambda(t)*R(t)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;f(t)=\lambda(t)*R(t)" title="\large f(t)=\lambda(t)*R(t)" /></a>
+
+l'inaffidabilità corrisponde all'integrale della densità al tempo t-esimo: 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;F(t)=\int&space;f(t)dt" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;F(t)=\int&space;f(t)dt" title="\large F(t)=\int f(t)dt" /></a>
+
 Il tasso di guasto di un componente elettronico è maggiore per tempi bassi e scende col tempo (mortalità infantile). 
 Il tasso di guasto di un componente meccanico è minore per tempi bassi e sale col tempo (invecchiamento).
 
