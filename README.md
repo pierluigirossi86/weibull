@@ -1,5 +1,6 @@
 # Finding weibull parameters in a for components of a system with survival analysis in R
 
+**1) Il dataset**
 l'analisi riguarda un dataset contenente rapporti di guasto di un piccolo sistema composto da una parte elettronica e una parte meccanica. La rottura di una soltanto di esse causa già il guasto del sistema nel complesso. 
 
 La modalità di guasto del sistema in oggetto non consente un'analisi approfondita sulle singole modalità di guasto dei componenti che lo compongono: per risalire ai parametri affidabilistici del sistema, occorre andare a ritroso dalla densità di guasto ottenuta da 10.000 test. 
@@ -21,6 +22,6 @@ Il tasso di guasto segue la seguente formula:
 Il tasso di guasto di un componente elettronico è maggiore per tempi bassi e scende col tempo (mortalità infantile). 
 Il tasso di guasto di un componente meccanico è minore per tempi bassi e sale col tempo (invecchiamento).
 
-**Individuare il tasso di guasto del componente elettronico nel sistema**
+**2) Individuare il tasso di guasto del componente elettronico nel sistema**
 
 Il componente elettronico 
