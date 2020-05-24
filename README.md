@@ -8,5 +8,9 @@ Per definizione da dati storici, si conosce che sia la parte meccanica che la pa
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;f(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}\exp{(-((x)/\alpha)^{\beta})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;f(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}\exp{(-((x)/\alpha)^{\beta})}" title="\LARGE f(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}\exp{(-((x)/\alpha)^{\beta})}" /></a>
 
+L'affidabilità del sistema è data da:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;f(x)=\exp{(-((x)/\alpha)^{\beta})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;f(x)=\exp{(-((x)/\alpha)^{\beta})}" title="\LARGE f(x)=\exp{(-((x)/\alpha)^{\beta})}" /></a>
+
 I valori di beta sono minori di 1 per i componenti elettronici, maggiori di 1 per i componenti meccanici. Se uguale ad 1, la distribuzione diventa una distribuzione esponenziale a tasso di guasto costante (t/alfa). 
- 
+Per valori di alfa=t invece l'affidabilità assume sempre valore di exp(-1), ossia 0.3687. 
