@@ -6,7 +6,7 @@ La modalità di guasto del sistema in oggetto non consente un'analisi approfondi
 
 Per definizione da dati storici, si conosce che sia la parte meccanica che la parte elettronica del sistema seguono la distribuzione di Weibull: 
 
-<img src="https://latex.codecogs.com/gif.latex?\(f(x)=\frac{\gamma}{\alpha}(\frac{x}{\alpha})^{(\gamma-1)}\exp{(-((x)/\alpha)^{\gamma})}\hspace{.3in} x \ge \mu; \gamma, \alpha > 0 \) " /> 
+<img src="https://latex.codecogs.com/gif.latex?\(f(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}\exp{(-((x)/\alpha)^{\beta})}" /> 
 
 
  
