@@ -16,4 +16,7 @@ I valori di beta sono minori di 1 per i componenti elettronici, maggiori di 1 pe
 Per valori di alfa=t invece l'affidabilità assume sempre valore di exp(-1), ossia 0.3687. 
 Il tasso di guasto segue la seguente formula:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;\lambda(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;\lambda=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}" title="\LARGE f(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;\lambda(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;\lambda(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}" title="\LARGE f(x)=\frac{\beta}{\alpha}(\frac{x}{\alpha})^{(\beta-1)}" /></a>
+
+Il tasso di guasto di un componente elettronico è maggiore per tempi bassi e scende col tempo (mortalità infantile). 
+Il tasso di guasto di un componente meccanico è minore per tempi bassi e sale col tempo (invecchiamento).
