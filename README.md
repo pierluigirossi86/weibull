@@ -20,3 +20,7 @@ Il tasso di guasto segue la seguente formula:
 
 Il tasso di guasto di un componente elettronico è maggiore per tempi bassi e scende col tempo (mortalità infantile). 
 Il tasso di guasto di un componente meccanico è minore per tempi bassi e sale col tempo (invecchiamento).
+
+**Individuare il tasso di guasto del componente elettronico nel sistema**
+
+Il componente elettronico 
