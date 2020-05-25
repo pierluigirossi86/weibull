@@ -2,7 +2,7 @@
 
 **1. Il dataset**
 
-l'analisi riguarda un dataset (WeibullDataSet.csv nella cartella) contenente rapporti di guasto di un piccolo sistema composto da una parte elettronica e una parte meccanica. La rottura di una soltanto di esse causa già il guasto del sistema nel complesso. 
+l'analisi riguarda un dataset (WeibullDataSet.csv nella cartella) contenente rapporti di guasto di un piccolo sistema composto da una parte elettronica e una parte meccanica. La rottura di una soltanto di esse causa già il guasto del sistema nel complesso, quindi non è possibile indagare sulle ragioni del guasto ex post. Bisognerà analizzare i dati e capire quanto incide la parte meccanica e quanto incide la parte elettronica. 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;R_{sistema}(t)=R_{elettronico}(t)*R_{meccanico}(t)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;R_{sistema}(t)=R_{elettronico}(t)*R_{meccanico}(t)" title="\large R_{sistema}(t)=R_{elettronico}(t)*R_{meccanico}(t)" /></a>
 
