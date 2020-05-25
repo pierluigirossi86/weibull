@@ -45,3 +45,6 @@ Una volta individuato alfa e beta per il componente elettronico, con un nuovo sc
 
 ![Risultato](https://github.com/pierluigirossi86/weibull/blob/master/Plot%20PNG%20fit%20dati.png)
 
+**4. Sviluppi successivi**
+
+Il progetto era stato inizialmente pensato per simulare con il metodo di Montecarlo tutti e 4 i parametri (alfa e beta componente elettronico, alfa e beta componente meccanico). La necessità di effettuare numerose iterazioni con test per ognuno dei 365 tempi T superiori a 1000 comportava tuttavia un tempo di analisi troppo elevato. Nel caso in esame ci si limita a simulare soltanto alfa e beta del componente meccanico del sistema per due iterazioni. 
