@@ -42,3 +42,6 @@ Il componente elettronico, data l'elevata affidabilità della parte meccanica ne
 **3. Individuare il tasso di guasto del componente meccanico nel sistema con il metodo di Montecarlo**
 
 Una volta individuato alfa e beta per il componente elettronico, con un nuovo script verranno individuati i valori di alfa e beta per il componente meccanico attraverso il metodo di Montecarlo. Dopo diverse iterazioni si arriva ad un risultato accettabile con un basso grado di incertezza. 
+
+![Risultato](https://github.com/pierluigirossi86/weibull/blob/master/Plot%20PNG%20fit%20dati.png)
+
