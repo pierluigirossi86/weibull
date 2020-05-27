@@ -10,11 +10,11 @@ La modalità di guasto del sistema in oggetto non consente un'analisi approfondi
 
 ![Guasti](https://github.com/pierluigirossi86/weibull/blob/master/Guasti%20al%20tempo%20t.png)
 
-Per definizione da dati storici, si conosce che sia la parte meccanica che la parte elettronica del sistema seguono la distribuzione di Weibull: 
+Per definizione da dati storici, si conosce che sia la parte meccanica che la parte elettronica del sistema seguono la distribuzione di Weibull, la cui densità di probabilità è definita come segue: 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;f(t)=\frac{\beta}{\alpha}(\frac{t}{\alpha})^{(\beta-1)}\exp{(-((t)/\alpha)^{\beta})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;f(t)=\frac{\beta}{\alpha}(\frac{t}{\alpha})^{(\beta-1)}\exp{(-((t)/\alpha)^{\beta})}" title="\LARGE f(t)=\frac{\beta}{\alpha}(\frac{t}{\alpha})^{(\beta-1)}\exp{(-((t)/\alpha)^{\beta})}" /></a>
 
-L'affidabilità dei componenti è data da:
+Nella distribuzione di Weibull il parametro alfa corrisponde al fattore di scala, ed è strettamente legato alla vita caratteristica del componente. Il parametro beta è invece definito fattore di forma. L'affidabilità dei componenti è data da:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;f(t)=\exp{(-((t)/\alpha)^{\beta})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;R(t)=\exp{(-((t)/\alpha)^{\beta})}" title="\LARGE f(t)=\exp{(-((t)/\alpha)^{\beta})}" /></a>
 
