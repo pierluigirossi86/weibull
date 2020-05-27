@@ -18,7 +18,14 @@ L'affidabilità dei componenti è data da:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;f(t)=\exp{(-((t)/\alpha)^{\beta})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;R(t)=\exp{(-((t)/\alpha)^{\beta})}" title="\LARGE f(t)=\exp{(-((t)/\alpha)^{\beta})}" /></a>
 
-I valori di beta sono minori di 1 per i componenti elettronici, maggiori di 1 per i componenti meccanici. Se uguale ad 1, la distribuzione diventa una distribuzione esponenziale a tasso di guasto costante (t/alfa). 
+Componenti elettronici: assumono qualunque valore positivo di alfa, mentre beta assume valori compresi tra 0 e 1. 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\forall&space;\alpha&space;\in&space;\mathbb{R^{&plus;}},&space;0&space;<&space;\beta&space;<&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;\forall&space;\alpha&space;\in&space;\mathbb{R^{&plus;}},&space;0&space;<&space;\beta&space;<&space;1" title="\large \forall \alpha \in \mathbb{R^{+}}, 0 < \beta < 1" /></a>
+
+Componenti meccanici: assumono qualunque valore positivo di alfa, mentre beta è maggiore di 1. Se beta è uguale ad 1, la distribuzione si trasformerebbe in una distribuzione esponenziale a tasso di guasto costante (t/alfa). 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\forall&space;\alpha&space;\in&space;\mathbb{R^{&plus;}},&space;\beta&space;>&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;\forall&space;\alpha&space;\in&space;\mathbb{R^{&plus;}},&space;\beta&space;>&space;1" title="\large \forall \alpha \in \mathbb{R^{+}}, \beta > 1" /></a>
+
 Per valori di alfa=t invece l'affidabilità assume sempre valore di exp(-1), ossia 0.3687. 
 Il tasso di guasto segue la seguente formula:
 
